@@ -1,0 +1,93 @@
+content{
+ margin-top: 20px;
+ font-family:"atom extended bold", "atom Bold", "atom";
+}
+ [class*="col-"] {
+ width: 100%;
+}
+@media only screen and (min-width: 768px) {
+ [class*="col-"] {
+ float: left;
+ padding: 15px;
+}
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+}
+.header{
+ height: 25%;
+ background-color:#ffa500;
+ font-size: 50pt;
+ color: #ffffff;
+ text-indent:30px
+}
+
+.menu{
+height: 8.33%;
+background-color:#d18700;
+color:#ffffff
+padding: 8px;
+margin-bottom: 7px;
+}
+
+h2{
+Color:#ffa500;
+font-style: oblique;
+}
+
+.een{
+ height:100%;
+ background-color:#ffe0a8 ;
+ color: #ffffff;
+ float:left
+}
+
+.twee{
+ background-color: #fffdfa;
+ height: inherit;
+ Color: #000000;
+ float:right;
+ display:inline-block;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+display: block;
+margin: 15px 0px;
+Width: 600px;
+box-sizing: border-box;
+border-radius: 4px;
+box-shadow: inset 2px 2px 5px orange;
+}
+textarea{
+height: 200px;
+padding: 5px 4px;
+}
+
+
+button:active{
+background-color: #FFFF33;
+color: #000000;
+border-radius: 8px;
+box-shadow: inset 2px 2px 5px orange;
+}
+
+.footer{
+background-color:#d18700 ;
+color: #000000;
+clear: right;
+}
+
+@media only screen and (min-width: 1200px) {
+.header{
+background-color: Orange;
+}
+}
